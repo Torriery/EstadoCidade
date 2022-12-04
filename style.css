@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(43, 19, 48);
+    color: rgb(150, 17, 143);
+    font-size: 1.5em;
+}
+
+div {
+    margin-bottom: 10   px;
+}
+
+h1, h3 {
+    color: whitesmoke;
+}
+
+h3 {
+    margin-bottom: 2px;
+}
+
+.flexHr {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.divDeTexto {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+select, label {
+    display: block;
+    text-align: center;
+}
+
+select {
+    color: burlywood;
+    background-color: rgb(75, 66, 78);
+    font-size: 0.7em;
+}
+
+p {
+    margin-top: 0;
+}
